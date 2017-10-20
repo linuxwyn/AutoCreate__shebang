@@ -1,4 +1,4 @@
-with open('huawei.txt','r') as f: 
+with open('example.txt','r') as f: 
   liNe = f.readline() 
   while liNe:
     new_line = liNe.rstrip()  
