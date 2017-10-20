@@ -1,8 +1,9 @@
 with open('huawei.txt','r') as f: 
-  liNe = f.readline() while liNe:
-  new_line = liNe.rstrip()  
-  List = new_line.split('|')
+  liNe = f.readline() 
+  while liNe:
+    new_line = liNe.rstrip()  
+    List = new_line.split('|')
     if List[0] == 'string':
-    string = '|'.join(List)
-    print(string)  
+      string = '|'.join(List)
+      print(string)  
     liNe = f.readline()
