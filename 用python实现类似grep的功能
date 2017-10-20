@@ -1,0 +1,8 @@
+with open('huawei.txt','r') as f: 
+  liNe = f.readline() while liNe:
+  new_line = liNe.rstrip()  
+  List = new_line.split('|')
+    if List[0] == 'chenmaohui':
+    string = '|'.join(List)
+    print(string)  
+    liNe = f.readline()
