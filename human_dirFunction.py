@@ -28,5 +28,5 @@ def human_readable(module, flag = True):
     
 if __name__ == '__main__':                                            #当该脚本以顶层文件执行时所做的操作
   import human_dirFunction
-  human_dirFunction.human_readable(human_dirFunction)
+  human_readable(human_dirFunction)
     
