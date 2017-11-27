@@ -25,6 +25,6 @@ else
       touch $filename
       echo "#\!`which $program`" | sed -n 's/\\//p' > $filename
       chmod +x $filename
-      vim $filename
+      vim $filename || vi $filename
 fi
       
