@@ -2,7 +2,7 @@ import types
 from imp import reload
 
 def status(module):
-    print("reloading  " + module.__name__)
+    print('reloading  ' + module.__name__)
 
 
 def transitive_reload(module, visited):
