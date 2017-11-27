@@ -1,4 +1,4 @@
-Linux平台下的基本操作：
+debian/ubuntu平台下的基本操作：
 一、基本安装
 1、首先，安装PostgreSQL客户端。
 sudo apt-get install postgresql-client
